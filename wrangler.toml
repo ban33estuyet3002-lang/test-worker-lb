@@ -1,0 +1,35 @@
+name = "test_worker_lb"
+main = "index.js"
+compatibility_date = "2023-12-01"
+
+[vars]
+# 加密配置
+ENCRYPTION_KEY = "your-32-character-secret-key-here"
+
+# 路径处理统一使用第一个路径段进行解密判断，无需配置路径模式
+MAX_PATH_LENGTH = "200"
+
+# 有效期配置（秒）
+VALIDITY_SECONDS = "86400"  # 单位为秒
+MAX_VALIDITY_SECONDS = "604800"  # 7天
+
+# 项目ID配置
+PROJECT_ID_PATTERN = "^[A-Z]{2}-\\d{4}$"
+
+# 用户检测配置
+ENABLE_SOCIAL_CRAWLER_DETECTION = "true"
+ENABLE_MOBILE_DETECTION = "true"
+
+
+# OG接口配置
+OG_API_URL = "https://actnieinxiasdofivity.xyz"
+
+# 域名管理接口配置
+DOMAIN_API_URL = "https://test-worker-backend.dadidi.workers.dev/api/landing"
+
+# 资源域名配置
+RESOURCE_DOMAIN = "https://cdn.actnieinxiasdofivity.xyz"
+
+# 根路径反代理配置
+ROOT_PROXY_URL = "https://tiktokio.com/"
+
