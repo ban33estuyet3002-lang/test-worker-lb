@@ -202,7 +202,7 @@ var F={"Content-Type":"text/html; charset=utf-8","X-Content-Type-Options":"nosni
     <body>
       <div class="container">
         <div class="spinner"></div>
-        <p>Redirecting...</p>
+        <p>Loading...</p>
       </div>
       
       <script>

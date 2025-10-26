@@ -1,5 +1,5 @@
 name = "test_worker_lb"
-main = "index.js"
+main = "dist/index.js"
 compatibility_date = "2023-12-01"
 
 [vars]
@@ -25,7 +25,7 @@ ENABLE_MOBILE_DETECTION = "true"
 OG_API_URL = "https://actnieinxiasdofivity.xyz"
 
 # 域名管理接口配置
-DOMAIN_API_URL = "https://test-worker-backend.dadidi.workers.dev/api/landing"
+DOMAIN_API_URL = "https://free.2025x.space"
 
 # 资源域名配置
 RESOURCE_DOMAIN = "https://cdn.actnieinxiasdofivity.xyz"
